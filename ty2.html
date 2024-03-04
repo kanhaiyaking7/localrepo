@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        #tex{
+        }
+        #scr{
+            height: 150px; 
+            overflow-y: scroll; 
+        }
+        #inp{
+            outline: none;
+            border-top: none;
+            border-left:none;
+            border-right: none;
+        }
+    </style>
+ 
+</head>
+<body>
+
+    <div class="container ">
+
+        <div class="row border border-danger">
+           
+            <div id="scr" class="col-12"> 
+                <h1 id="tex">everal thousand years ago in north-central
+                     India, two people sat in a chariot in the midpoint 
+                     of a great battlefield. One of them, the yogi 
+                     Arjuna, knew that it would
+                     not be long before the conflict would begin.</h1>
+                <br>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="row ">
+            <div class="col-12">
+         <input id="inp" size="50" oninput="abc(this)" type="text">
+            </div>
+        </div>
+    
+
+        
+
+    </div>
+    
+    
+
+
+
+
+    <script>
+        let num = 15;
+
+        // setInterval(() => {
+        //     let terg = document.getElementById("scr");
+        //     let ok = num+10;
+        //     terg.scrollBy(0,ok); 
+         
+        // }, 1000);
+
+let gos = document.querySelector("h1");
+    let originalText = document.querySelector("h1").innerText;
+
+    function abc(e) {
+        let ch = e.value;
+
+        if (ch[ch.length - 1] == originalText[ch.length - 1]) {
+            let num = ch.length - 1;
+            let newText = originalText.substring(0, num) + '<span style="color:red;">' +
+                originalText[num] + '</span>' + originalText.substring(num + 1);
+            gos.innerHTML = newText;
+            console.log('done');
+        } else {
+            // Reset styling and text to original
+            gos.innerHTML = originalText;
+            console.log('no');
+        }
+    }
+
+  
+    
+    </script>
+
+    </body>
+
+    </html>
+
+

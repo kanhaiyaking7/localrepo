@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    #scrollContainer {
+      width: 300px;
+      height: 150px;
+      overflow: scroll;
+      border: 1px solid #ccc;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the scroll container, content element, and input box
+      var scrollContainer = document.getElementById('scrollContainer');
+      var contentElement = document.getElementById('content');
+      var inputBox = document.getElementById('inputBox');
+
+      // Function to update content dynamically
+      function updateContent() {
+        var newContent = '<p>' + inputBox.value + '</p>';
+        contentElement.innerHTML += newContent;
+        inputBox.value = ''; // Clear the input box after adding content
+      }
+
+      // Trigger the updateContent function on button click
+      var updateButton = document.getElementById('updateButton');
+      updateButton.addEventListener('click', updateContent);
+    });
+  </script>
+</head>
+<body>
+  <div id="scrollContainer">
+    <div id="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+    </div>
+  </div>
+  <label for="inputBox">Add Content:</label>
+  <input type="text" id="inputBox">
+  <button id="updateButton">Update Content</button>
+</body>
+</html>

@@ -1,0 +1,136 @@
+  //     let gos = document.querySelector("h1");
+    //     let go = document.querySelector("h1").innerText;
+      
+
+
+    //     // let sp = document.createElement('span');
+    //     //     sp.innerText =go[3];
+    //     //     sp.style.color = 'red';
+            
+    //   ///go.substring(0,3)
+        
+      
+      
+      
+      
+    //   function abc(e){
+    //       let ch=e.value;
+          
+    //       if(ch[e.value.length - 1] == go[e.value.length - 1]){
+    //           let num=e.value.length-1;
+    //           go =  go.substring(0,num-1)+'<span style="color:red;">'+
+    //             go[num] + '</span>' + go.substring(num+1);
+    //             gos.innerHTML = go;
+              
+               
+              
+              
+    //             console.log('done');
+                //   let sp = document.createElement('span');
+                // sp.innerText =go[e.value.length - 1];
+            // sp.style.color = 'red';
+            
+            // gos.innerHTML = gos.innerText.replace(go[e.value.length - 1],sp.outerHTML);
+            // console.log('done');
+
+    //     }
+    //     else{
+    //         console.log('no');
+    //     }
+    // }
+
+
+    //     function abc(e){
+    //         let con = e.value;
+    //         let mon  = e.value.length - 1;
+    //         console.log(mon);
+
+            
+    //         if(con[e.value.length -1 ] == go[e.value.length - 1]){
+                
+    //             // let wor = go[e.value.length - 1];
+    //             // console.log(wor);
+    //             let sp = document.createElement('span');
+    //             sp.innerText =go[mon];
+    //             sp.style.color = 'red';
+    //             console.log(sp.outerHTML);
+               
+                
+    //             console.log(go);
+    //             gos.innerHTML = go;
+    //             console.log('done');
+           
+    //         }
+    //         else{
+    //             console.log('no');
+    //         }
+            
+    // }
+    // // console.log(go);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    // let go_val = go[e.value.length - 1]
+    // let sp = document.createElement('span');
+                // sp.innerText= go_val
+                // let ho = go.replace((go_val)/g,sp)
+                // gos.append(sp);
+             
+                
+                // go[e.value.length -1 ].style.backgroundColor='red';
+                // go.style.backgroundColor = 'red';
+                
+                // //   
+                //     let sp = document.createElement('span');
+                //     sp.innerText = go[15];
+                //     sp.style.color = 'red';
+                //     // console.log(sp);
+                
+                // //    //`<span style="color:red;">${go[1]}</span>` -->
+                 //    go = go.replace(go[15],sp.outerHTML);
+                  
+                //    gos.innerHTML = go;
+                //    console.log(gos.innerHTML);
+                    // gos.innerHTML = go.replace(go[2],sp);
+                    // console.log(gos.innerHTML);
+                    // gos.innerHTML = go.replace(/(ut)/g, '<span style="color: red;">$1</span>');
+                
+                    // // console.log(ho);
+                    
+                    // console.log(gos);
+                    // "ut"
+                    // /(ut)/g
+    //                 let gos = document.querySelector("h1");
+    //     let go = document.querySelector("h1").innerText;
+
+  
+
+    // function abc(e)
+    //     let ch=e.value;
+       
+    //     if(ch[e.value.length - 1] == go[e.value.length - 1]){
+    //         let sp = document.createElement('span');
+    //         sp.innerText =go[e.value.length - 1];
+    //         sp.style.color = 'red';
+            
+    //         gos.innerHTML = gos.innerText.replace(go[e.value.length - 1],sp.outerHTML);
+    //         console.log('done');
+    //     }
+    //     else{
+    //         console.log('no');
+    //     }
+
+                      
+    
